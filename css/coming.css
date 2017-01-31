@@ -1,0 +1,177 @@
+body
+{
+	background-image: url('../img/roses.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+section #sqr
+{
+	height: 100%;
+	width: 20%;
+	border: 7px solid white;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+section #sqr p
+{
+	color: white;
+	font-size: 5em;
+	font-weight: bolder;
+	text-align: center;
+}
+section #brand
+{
+	text-align: center;
+}
+section #soon
+{
+
+	font-size: 2em;
+	margin-top: 1%;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+
+}
+section #brand .neontitle
+{
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 20px;
+  border: none;
+  font: normal 9em/normal "Warnes", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  margin-top: 5%;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #2da8e5 , 0 0 70px #2da8e5 , 0 0 80px #2da8e5 , 0 0 100px #2da8e5;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+section #brand .neontitle:hover
+{
+	font-weight: bolder;
+}
+footer #social
+{
+	text-align: center;
+	margin-top: 7%;
+}
+footer #social #fb
+{
+	font-size: 3em;
+	color: white;
+}
+footer #social #insta
+{
+	font-size: 3em;
+	margin-left: 2%;
+	color: white;
+}
+footer #social #spotify
+{
+	font-size: 3em;
+	margin-left: 2%;
+	color: white;
+}
+footer #copyright
+{
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	margin-top: 9%;
+}
+@media only screen and (max-width : 1667px) {
+	section #sqr p
+	{
+		font-size: 4em;
+	}
+}
+@media only screen and (max-width : 1328px) {
+	section #sqr p
+	{
+		font-size: 3em;
+	}
+}
+@media only screen and (max-width : 1012px) {
+	section #sqr p
+	{
+		font-size: 2em;
+	}
+	section #soon
+	{
+		font-size: 1.7em;
+		color: white;
+		text-align: center;
+	}
+}
+@media only screen and (max-width : 767px) {
+	section #brand .neontitle
+	{
+		font: normal 4.5em/normal "Warnes", Helvetica, sans-serif;
+	}
+	section #soon
+	{
+		font-size: 2em;
+		color: white;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width : 480px) {
+	section #soon
+	{
+		font-size: 1.3em;
+		color: white;
+		text-align: center;
+		margin-top: 15%;
+	}
+	section #sqr
+	{
+		height: 100%;
+		width: 45%;
+		border: 5px solid white;
+		margin-left: 27.5%;
+		margin-top: 8%;
+	}
+	section #sqr p
+	{
+		color: white;
+		font-size: 2em;
+		font-weight: bolder;
+		text-align: center;
+	}
+	footer #social
+	{
+		text-align: center;
+		margin-top: 12%;
+	}
+	footer #social #fb
+	{
+		font-size: 2em;
+		color: white;
+	}
+	footer #social #insta
+	{
+		font-size: 2em;
+		margin-left: 2%;
+		color: white;
+	}
+	footer #social #spotify
+	{
+		font-size: 2em;
+		margin-left: 2%;
+		color: white;
+	}
+
+}

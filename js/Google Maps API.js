@@ -1,0 +1,1 @@
+function initialize(e,a){{var o=new google.maps.LatLng(e,a),n={zoom:17,center:o,mapTypeId:google.maps.MapTypeId.HYBRID},p=new google.maps.Map(document.getElementById("map-canvas"),n);new google.maps.Marker({position:o,map:p,title:"Pin"})}}
